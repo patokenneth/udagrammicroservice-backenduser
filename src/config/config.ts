@@ -13,7 +13,7 @@ let URL : string;
 switch (process.env.environment) {
   case ('dev'):
     POSTGRESS_USERNAME = process.env.POSTGRES_USERNAME;
-    POSTGRESS_PASSWORD = process.env.POSTGRESS_PASSWORD;
+    POSTGRESS_PASSWORD = process.env.POSTGRES_PASSWORD;
     POSTGRESS_DATABASE = process.env.POSTGRES_DATABASE;
     POSTGRESS_HOST = process.env.POSTGRES_HOST;
     dialect = process.env.dialect;
@@ -24,7 +24,7 @@ switch (process.env.environment) {
     URL = process.env.URL;
   default:
     POSTGRESS_USERNAME = process.env.POSTGRES_USERNAME;
-    POSTGRESS_PASSWORD = process.env.POSTGRESS_PASSWORD;
+    POSTGRESS_PASSWORD = process.env.POSTGRES_PASSWORD;
     POSTGRESS_DATABASE = process.env.POSTGRES_DATABASE;
     POSTGRESS_HOST = process.env.POSTGRES_HOST;
     dialect = process.env.dialect;

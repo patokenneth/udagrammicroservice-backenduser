@@ -16,7 +16,7 @@ before_script:
 script:
   - docker --version # print the version for logging
   - docker build -t udagram-api-user .
-  - docker tag udagram-api-user 9674007/udagram-api-user:latest
+  - docker tag udagram-api-user 9674007/udagram-api-user:v3
 
 # Tasks to perform after the earlier process runs successfully. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.
 after_success:
